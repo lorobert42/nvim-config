@@ -4,5 +4,8 @@ Plugin.name = 'gitsigns'
 
 Plugin.event = {'BufReadPre', 'BufNewFile'}
 
-return Plugin
+function Plugin.init()
+	require("gitsigns").setup()
+end
 
+return Plugin
