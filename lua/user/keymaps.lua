@@ -36,7 +36,8 @@ vim.keymap.set({'n', 'x'}, 'x', '"_x', {desc = "Delete text"})
 -- Commands
 vim.keymap.set({ "i", "x", "n", "s" }, "<C-s>", "<cmd>w<cr><esc>", { desc = "Save file" })
 vim.keymap.set('n', '<leader>bq', '<cmd>bdelete<cr>')
-vim.keymap.set('n', '<leader>bl', '<cmd>buffer #<cr>')
+vim.keymap.set('n', 'bl', '<cmd>BufferLineCycleNext<cr>')
+vim.keymap.set('n', 'bh', '<cmd>BufferLineCycleNext<cr>')
 
 -- lazy
 vim.keymap.set("n", "<leader>l", "<cmd>Lazy<cr>", { desc = "Lazy" })
