@@ -16,3 +16,9 @@ vim.api.nvim_create_autocmd('FileType', {
   command = 'nnoremap <buffer> q <cmd>quit<cr>'
 })
 
+vim.api.nvim_create_autocmd("FileType", {
+	pattern = { "dashboard" },
+	group = group,
+	command = "lua vim.b.miniindentscope_disable = true"
+})
+

@@ -32,7 +32,7 @@ Plugin.opts = function ()
 				{ action = "Telescope find_files",              desc = " Find file",       icon = " ", key = "f" },
 				{ action = "ene | startinsert",                 desc = " New file",        icon = " ", key = "n" },
 				{ action = "Telescope oldfiles",                desc = " Recent files",    icon = " ", key = "r" },
-				{ action = "Telescope live_grep",               desc = " Find text",       icon = " ", key = "g" },
+				{ action = "LazyGit",               						desc = " LazyGit",   		   icon = "󰊢 ", key = "g" },
 				{ action = "e $MYVIMRC",                        desc = " Config",          icon = " ", key = "c" },
 				{ action = "LazyExtras",                        desc = " Lazy Extras",     icon = " ", key = "e" },
 				{ action = "Lazy",                              desc = " Lazy",            icon = "󰒲 ", key = "l" },
