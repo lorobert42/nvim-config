@@ -74,6 +74,7 @@ function Plugin.config()
       'cssls',
       'lua_ls',
 			'clangd',
+			'rust_analyzer',
     },
     handlers = {
       -- See :help mason-lspconfig-dynamic-server-setup

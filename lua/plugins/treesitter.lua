@@ -34,6 +34,7 @@ Plugin.opts = {
 		'c',
 		'cpp',
 		'make',
+		'rust',
   },
 }
 
